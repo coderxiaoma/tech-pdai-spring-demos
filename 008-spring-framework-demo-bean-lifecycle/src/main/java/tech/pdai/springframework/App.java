@@ -5,7 +5,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import tech.pdai.springframework.entity.User;
 
 /**
- * Cglib proxy demo.
  *
  * @author pdai
  */
