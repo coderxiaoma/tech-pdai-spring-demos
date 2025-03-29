@@ -24,6 +24,11 @@ public class RateLimitTestController {
     @GetMapping("/limit1")
     public ResponseResult<String> limit1() {
         log.info("limit1");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            return ResponseResult.fail("线程中断");
+        }
         return ResponseResult.success();
     }
 

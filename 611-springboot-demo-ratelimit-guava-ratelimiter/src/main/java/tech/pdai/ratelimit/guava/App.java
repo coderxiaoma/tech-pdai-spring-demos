@@ -36,7 +36,7 @@ public class App {
         Thread.sleep(1000);
 
         // test
-        test(20);
+        test(100);
     }
 
     @SneakyThrows
