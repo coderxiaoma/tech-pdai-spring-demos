@@ -20,6 +20,7 @@ public class App {
     public static void main(String[] args) {
         // create and configure beans
         // 配置bean
+        // 从配置文件中读取bean
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("aspects.xml", "daos.xml", "services.xml");
 
