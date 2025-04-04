@@ -1,5 +1,5 @@
 server:
   port: 8080
 logging:
-  level: debug
-  path: "/var/log/springboot-demo-logback"
+  level.root: debug
+  path: "./var/log/springboot-demo-logback"
