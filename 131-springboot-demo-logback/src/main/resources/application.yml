@@ -1,5 +1,6 @@
 server:
   port: 8080
 logging:
-  level.root: debug
+  level.root: info
+  level.pdai.tech.springboot.logback.controller.LogTestController: trace
   path: "./var/log/springboot-demo-logback"
