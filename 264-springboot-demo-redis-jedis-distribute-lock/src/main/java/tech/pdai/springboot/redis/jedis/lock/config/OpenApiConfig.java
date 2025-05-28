@@ -43,6 +43,7 @@ public class OpenApiConfig {
     @Autowired
     public OpenApiConfig(OpenApiExtensionResolver openApiExtensionResolver) {
         this.openApiExtensionResolver = openApiExtensionResolver;
+
     }
 
     /**
